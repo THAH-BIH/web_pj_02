@@ -53,18 +53,43 @@ a{
     font-weight: 700;
     line-height: 72px; /* 116.129% */    
 }
+.heading-12px{
+    color: #767E7E;
+    font-size: 12px;
+    font-weight: 700;
+}
+.heading-20px{
+    color: #0D1111;
+    font-size: 20px;
+    font-weight: 600;
+}
+.heading-22px{
+    color: #0D1111;
+    font-size: 22px;
+    font-weight: 700;
+}
+.heading-42px{
+    color: #0D1111;
+    font-size: 42px;
+    font-weight: 700;
+}
 /* =======DOCUMENT======== */
+
 .document-14px{
     color: #767E7E;
     font-size: 14px;
+    font-weight: 400;
+}
+.document-16px{
+    color: #767E7E;
     font-weight: 400;
 }
 .document-18px{
     color: #9DA6A5;
     font-size: 18px;
     font-weight: 400;
-    line-height: 32px; /* 177.778% */
 }
+
 
 /* ==========BTN========== */
 .btn:hover{
@@ -308,3 +333,104 @@ a{
     border-radius: 50%;
     margin-left: -10px;
 }
+/* =======================================FEATURE========================================= */
+/* =======================================FEATURE========================================= */
+/* =======================================FEATURE========================================= */
+.feature{
+    margin-top: 130px;
+    width: 1024px;
+}
+.feature .top-feature{
+    width: 590px;
+}
+.feature .top-feature .heading-42px{
+    margin: 18px 0px;
+}
+.feature .top-feature .document-18px{
+    line-height: 32px; /* 177.778% */
+}
+/*====================*/
+.feature .bottom-feature{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.feature .bottom-feature .heading-20px{
+    margin: 26px 0px 16px;
+}
+.document-ft{
+    width: 223px;
+    color: #9DA6A5;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 27px; /* 168.75% */    
+}
+/* =======================================COURSES========================================= */
+/* =======================================COURSES========================================= */
+/* =======================================COURSES========================================= */
+.courses .top-courses{
+    margin-top: 130px;
+    margin-bottom: 79px;
+}
+.courses .top-courses .heading-42px{
+    margin:18px 0px 19px ;
+}
+.courses .top-courses .content-courses{
+    display: flex;
+    justify-content: space-between;
+
+}
+.courses .content-courses a{
+    color: #1EBFC1;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    /* text-decoration-line: underline;     */
+    text-decoration:underline ;
+    height: 22px;
+} 
+.courses .top-courses .document-18px{
+    width: 525px;
+    line-height: 32px; /* 177.778% */
+}
+
+/* ========================*/
+.courses .bottom-courses{
+    display: flex;
+    gap: 47px;
+}
+.courses .item-courses {
+    position: relative;
+}
+.courses .bottom-courses .info-courses{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+    width: 325px;
+    height: 195px;
+    position: absolute;
+    left: 17px;
+    top: 322px;
+}
+.courses .bottom-courses .heading-22px{
+    margin-top: 18px;
+    margin-bottom: 16px;
+}
+.courses .bottom-courses .document-14px{
+    margin-top: 6px;
+    margin-bottom: 18px;
+}
+.courses .bottom-courses .class-time{
+    display: flex;
+    gap: 10px;
+}
+.courses .dot{
+    background-color: #1EBFC1;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
