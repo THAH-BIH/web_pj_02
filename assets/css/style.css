@@ -58,6 +58,14 @@ a{
     font-size: 12px;
     font-weight: 700;
 }
+.heading-18px{
+    color: #2E2E2E;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;    
+}
 .heading-20px{
     color: #0D1111;
     font-size: 20px;
@@ -89,8 +97,17 @@ a{
     font-size: 18px;
     font-weight: 400;
 }
-
-
+.document-32px{
+    color: #5D6564;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px; /* 150% */    
+}
+.document-logo{
+    font-weight: 700;
+    font-style: italic;
+    color: #192122;
+}
 /* ==========BTN========== */
 .btn:hover{
     opacity: 0.8;
@@ -136,11 +153,7 @@ a{
     border-radius: 50%;
     margin-right: 6px;
 }
-.header .left-header .document-logo{
-    font-weight: 700;
-    font-style: italic;
-    color: #192122;
-}
+
 
 
 .header .center-header {
@@ -414,6 +427,10 @@ a{
     left: 17px;
     top: 322px;
 }
+.courses .bottom-courses .in-info-courses{
+    margin-left: 25px;
+    display: inline-block;
+}
 .courses .bottom-courses .heading-22px{
     margin-top: 18px;
     margin-bottom: 16px;
@@ -421,6 +438,7 @@ a{
 .courses .bottom-courses .document-14px{
     margin-top: 6px;
     margin-bottom: 18px;
+    color: #9DA6A5;
 }
 .courses .bottom-courses .class-time{
     display: flex;
@@ -433,4 +451,172 @@ a{
     border-radius: 50%;
     margin-top: 10px;
 }
+/*  =======================================COUNTDOWN=========================================
+    =======================================COUNTDOWN========================================= 
+    =======================================COUNTDOWN========================================= */
+.countdown{
+    width: 862px;
+    margin-top: 389px;
+    display: flex;
+    margin-left: 154px;
+    margin-bottom: 265px;
+    justify-content: space-between;
+}
+.countdown .heading-62px{
+    margin-bottom: 11px;
+}
 
+/*  =======================================TESTIMONIAL=========================================
+    =======================================TESTIMONIAL========================================= 
+    =======================================TESTIMONIAL========================================= */
+.testimonial{
+    display: flex;
+}
+.testimonial .left-testimonial{
+    width: 36%;
+}
+.testimonial .left-testimonial .comma{
+    margin: 37px 0px 2px;
+    width: 36px;
+    height: 29px;
+}
+.testimonial .left-testimonial strong{
+    color: #070707;
+    font-weight: 500;
+    
+}
+.testimonial .left-testimonial .document-16px{
+    margin: 33px 0px 52px ;
+}
+.testimonial .btn-arrow {
+    gap: 30px;
+    display: flex;
+}
+.testimonial .btn-arrow .arrow{
+    width: 50px;
+    height: 50px;
+    background-color: #09eedb6e;
+    text-align: center;
+    border-radius: 50%;    
+    border: 1px solid #1EBFC1;
+}
+.testimonial .btn-arrow .arrow:hover{
+    cursor: pointer;
+    background-color: #1EBFC1;
+}
+.testimonial .btn-arrow img{
+    margin-top: 18px;
+    
+}
+/*==============================*/
+.testimonial .right-testimonial{
+    position: relative;
+}
+.testimonial .right-testimonial img{
+    position: absolute;
+    border-radius: 50%;
+}
+.testimonial .right-testimonial .img-00{
+    top: 0;
+    left: 216px;
+    background-color: #1EBFC1;
+}
+.testimonial .right-testimonial .img-01{
+    bottom: 29px;
+    left: 641px;
+    background-color: #B1DFDC;
+}
+.testimonial .right-testimonial .img-02
+{
+    background-color: #FF947A;
+    left: 284px;
+    top: 403px;
+}
+.testimonial .right-testimonial .img-03{
+    left: 72px;
+    top: 258px;
+    background-color: #FFC147;
+}
+.testimonial .right-testimonial .img-04{
+    background-color: #FF8282;
+    left:345px ;
+    top: 107px;
+}
+.testimonial .right-testimonial .img-05{
+    top: 19px;
+    background-color: #BF83FF;
+    left: 641px;
+}
+/* <!-- =======================================BASE========================================= -->
+<!--    =======================================BASE========================================= --> */
+.cta{
+    background: #DEF6F5;
+    margin-top: 130px;
+}
+.cta .in-cta{
+    display: flex;
+    gap: 410px;
+    align-items: center;
+    height: 272px;  
+}
+
+.cta .document-18px{
+    margin-top: 18px;
+}
+
+/* <!-- =======================================FOOTER========================================= -->
+<!--    =======================================FOOTER========================================= --> */
+.footer .in-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 131px;
+}
+
+.footer .logo-ft{
+    display: flex;
+    align-items: center;
+}
+.footer .logo-ft img{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+.footer .heading-18px{
+    color: #2E2E2E;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.footer a:last-child{
+    margin-bottom: 0;
+}
+.footer .social a{
+    margin-bottom: 18px;
+    margin-top: 2px;
+}
+.footer a{
+    display:block;
+    margin-bottom: 18px;
+    color: #535353;
+}
+.footer .social-icon{
+    display: flex;
+}
+.footer .icon{
+    width: 20px;
+    height: 20px;
+}
+.footer .document-16px{
+    height: 20px;
+    color: #535353;
+    font-size: 16px;
+    font-weight: 400;  
+}
+.footer .end{
+    color: #B0B5B4;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 80px 343px;
+    padding-bottom: 50px;
+}
